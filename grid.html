@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid</title>
+    <style>
+
+        body{
+            background-color: lightsalmon;
+        }
+        .container{
+            display: grid;
+            grid-template-columns:repeat(auto-fill,minmax(100px, 1fr));
+            grid-gap: 20px;
+            grid-auto-rows: minmax(100px, auto);
+            grid-auto-columns: 100px;
+        }
+        .items{
+            background-color: lightcoral;
+            border: 3px solid black;
+            border-radius: 3px;
+        }
+        #item-3{
+            
+        }
+
+        #item-1{
+            grid-column-start:1;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            row-gap : 50px;
+            column-gap: 50px;
+        }
+
+        .nested{
+            background-color: goldenrod;
+            border: 2px solid red;
+            height: 25px;
+            row-gap: 20px;
+            column-gap: 20px;
+            width: 100%;
+        }
+        .lol{
+            background-color: rgb(137, 137, 201);
+            border: 3px solid green;
+            height :100px;
+            width: 100px;
+          grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        }
+    </style>
+</head>
+<body>
+   <div class="container" >
+    <div class="items" id="item-1">
+        <div class="nested" >Dabbe me dabba</div>
+    <div class="nested">Dabbe me dabba</div>
+    <div class="nested">Dabbe me dabba</div>
+    <div class="nested">Dabbe me dabba</div>
+</div>
+    <div class="items" id="item-2">dabba2</div>
+    <div class="items" id="item-3">dabba3</div>
+    <div class="items" id="item-4">dabba4</div>
+    <div class="items" id="item-5">dabba5</div>
+  
+  <div class="lol">1</div>
+   <div class="lol">2</div>
+   <div class="lol">3</div>
+   <div class="lol">4</div>
+   <div class="lol">5</div>
+   <div class="lol">6</div>
+   <div class="lol">7</div>
+   <div class="lol">8</div>
+   <div class="lol">9</div>
+   <div class="lol">10</div>
+   <div class="lol">11</div>
+   <div class="lol">12</div>
+   <div class="lol">13</div>
+   <div class="lol">14</div>
+   <div class="lol">15</div>
+   <div class="lol">16</div>
+   <div class="lol">17</div>
+   <div class="lol">18</div>
+   <div class="lol">19</div>
+   <div class="lol">20</div>
+   <div class="lol">21</div>
+   <div class="lol">22</div>
+   <div class="lol">23</div>
+   <div class="lol">24</div>
+   <div class="lol">25</div>
+   <div class="lol">26</div>
+   <div class="lol">27</div>
+   <div class="lol">28</div>
+   <div class="lol">29</div>
+   <div class="lol">30</div>
+   <div class="lol">31</div>
+   <div class="lol">32</div>
+   <div class="lol">33</div>
+   <div class="lol">34</div>
+   <div class="lol">35</div>
+   <div class="lol">36</div>
+   <div class="lol">37</div>
+   <div class="lol">38</div>
+   <div class="lol">39</div>
+   <div class="lol">40</div>
+   <div class="lol">41</div>
+   <div class="lol">42</div>
+   <div class="lol">43</div>
+   <div class="lol">44</div>
+   <div class="lol">45</div>
+   <div class="lol">46</div>
+   <div class="lol">47</div>
+   <div class="lol">48</div>
+   <div class="lol">49</div>
+   <div class="lol">50</div>
+   <div class="lol">51</div>
+   <div class="lol">52</div>
+   <div class="lol">53</div>
+   <div class="lol">54</div>
+   <div class="lol">55</div>
+   <div class="lol">56</div>
+   <div class="lol">57</div>
+   <div class="lol">58</div>
+   <div class="lol">59</div>
+   <div class="lol">60</div>
+   <div class="lol">61</div>
+   <div class="lol">62</div>
+   <div class="lol">63</div>
+   <div class="lol">64</div>
+   <div class="lol">65</div>
+   <div class="lol">66</div>
+   <div class="lol">67</div>
+   <div class="lol">68</div>
+   <div class="lol">69</div>
+   <div class="lol">70</div>
+   <div class="lol">71</div>
+   <div class="lol">72</div>
+   <div class="lol">73</div>
+   <div class="lol">74</div>
+   <div class="lol">75</div>
+   <div class="lol">76</div>
+   <div class="lol">77</div>
+   <div class="lol">78</div>
+   <div class="lol">79</div>
+   <div class="lol">80</div>
+   <div class="lol">81</div>
+   <div class="lol">82</div>
+   <div class="lol">83</div>
+   <div class="lol">84</div>
+   <div class="lol">85</div>
+   <div class="lol">86</div>
+   <div class="lol">87</div>
+   <div class="lol">88</div>
+   <div class="lol">89</div>
+   <div class="lol">90</div>
+   <div class="lol">91</div>
+   <div class="lol">92</div>
+   <div class="lol">93</div>
+   <div class="lol">94</div>
+   <div class="lol">95</div>
+   <div class="lol">96</div>
+   <div class="lol">97</div>
+   <div class="lol">98</div>
+   <div class="lol">99</div>
+   <div class="lol">100</div>
+  </div>
+
+</body>
+</html>
